@@ -1,0 +1,10 @@
+body{font-family:system-ui,-apple-system,Segoe UI,Roboto,sans-serif;background:#f3f6fb}
+.reveal{position:relative;width:100vw;height:100vh;overflow:hidden}
+.slides{width:100%;height:100%;position:relative}
+.slides>section,.slides>section>section{display:none;width:100%;height:100%;padding:48px 64px;overflow:auto}
+.slides>section.active,.slides>section>section.active{display:block}
+.reveal .controls{position:absolute;right:12px;bottom:10px;display:flex;gap:6px}
+.reveal .controls button{border:1px solid #b6c4da;background:#fff;padding:7px 10px;border-radius:8px;cursor:pointer}
+.reveal .progress{position:absolute;left:0;bottom:0;height:5px;background:#dbe6f7;width:100%}
+.reveal .progress span{display:block;height:100%;background:#1f6feb;width:0}
+.reveal .slide-number{position:absolute;left:12px;bottom:10px;font-size:12px;color:#41536e}
